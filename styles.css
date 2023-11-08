@@ -1,0 +1,54 @@
+h1.title {
+    font-size: calc(2.325rem + 0.9vw);
+}
+
+
+h2.anchored::before {
+    content: "Task ";
+  }
+
+.cell-output-display {
+    background-color: rgb(255, 245, 231);
+}
+
+.cell-output-display::after {
+    box-sizing: content-box;
+}
+
+.theorem-title::after 
+  {
+    content: '. ';
+    font-weight: bold;
+    margin-left: -3pt;
+    margin-right: 6pt;
+  }
+
+h1 .header-section-number::after  {
+    content: '. ';
+  }
+
+.solution.proof {
+  background-color: rgb(232, 245, 247);
+}
+
+.unnumbered.anchored {
+  color:rgb(8, 71, 12);  
+}
+
+
+
+.sourceCode.cell-code {
+  border-left: 4px solid rgb(8, 71, 12);
+}
+
+.cell-output.cell-output-display{
+  border-left: 4px double rgb(71, 8, 24);
+}
+
+.img .cell-output.cell-output-display{
+  border-left: 0px;
+}
+
+.img .cell-output-display {
+  background-color: white;
+}
