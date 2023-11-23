@@ -59,3 +59,7 @@ h1 .header-section-number::after  {
 .img .cell-output-display {
   background-color: white;
 }
+
+.remark.proof {
+  background: lightcyan;
+}
